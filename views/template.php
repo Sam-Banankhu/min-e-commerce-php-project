@@ -1,19 +1,24 @@
+<!-- template.php -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pandas - E-commerce Site</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
- 
+    <title>Pandas</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <!-- Other CSS and meta tags -->
 </head>
 <body>
-    <?php include 'views/layouts/header.php'; ?>
+    <header>
+        <?php include 'layouts/header.php'; ?>
+    </header>
 
     <div id="content">
         <?php include $content; ?>
     </div>
 
-    <?php include 'views/layouts/footer.php'; ?>
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    
+    <?php include 'layouts/footer.php'; ?>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+    <!-- Other JS scripts -->
 </body>
 </html>
